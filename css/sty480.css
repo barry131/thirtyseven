@@ -1,0 +1,73 @@
+body{
+    font-size: 14px;
+}
+/*类似索尼屏幕*/
+@media screen and (max-height: 530px){
+
+}
+/*mi4*/
+@media screen and (max-width: 360px) and (min-width: 358px) and (max-height: 572px){
+.index-foot .li-red{
+    width: 27.42%;
+}
+}
+/*魅族4 384*519*/
+@media screen and (max-width: 385px) and (min-width: 380px) and (max-height: 567px){
+.write {
+    margin-top:3%;
+}
+}
+/*魅族3 432*600 */
+@media screen and (min-width: 370px) and (max-width: 378px) and (max-height: 610px){
+.detail-all{
+    padding:3% 0;
+}
+}
+/*索尼摩托罗拉3 360*520 三星note3  mi4*/
+@media screen and (max-width: 360px) and (min-width: 358px) and (min-height: 570px) and (max-height: 576px) {
+
+}
+/*三星,xiaomi*/
+@media screen and (max-width: 360px) and (min-width: 350px) and (min-height: 560px) and (max-height: 567px) {
+    
+}
+/*苹果6*/
+@media screen and (max-width: 375px) and (min-width: 370px) and (max-height: 605px) {
+.location-foot .loc-li2 {
+    width: 43%;
+}
+.ad_2 {
+    padding: 3.8% 0!important;
+}
+.com-locborder{
+    margin-top: 40%;
+}
+.index-foot .li-red{
+    padding-bottom: 3.7%;
+}
+}
+/*苹果6P */
+@media screen and (max-width: 414px) and (min-width: 386px) and (max-height: 800px) {
+.location-foot .loc-li2{
+    width: 42.5%;
+}
+.index-foot .li-red{
+    width: 27.4%;
+    padding-bottom: 4.2%;
+}
+.ad_2 span{
+    margin-right: 30%;
+}
+.com-locborder{
+    margin-top: 45%;
+}
+}
+/*虚拟键手机等*/
+@media screen and (min-height: 360px) and (max-height:520px){
+.index-foot .li-red {
+    width: 27.3%;
+}
+.location-foot .loc-li2 {
+    width: 42.4%;
+}
+}

@@ -1,0 +1,217 @@
+body,html{
+    background:#f1f1f1;
+    color: #000000;
+}
+/*通用红色背景色*/
+.common-redTOP,.com-border3,.com-border5,.com-add-footer,.com-border7,.com-center-right span,.finished,.default-add,.location-foot .loc-li2,.index-foot .li-red,.index-foot.car-foot,.del-btn,.del-btncss,.address-btn{
+     background: #dc3b36;   
+}
+/*end*/
+
+/*通用白色背景色*/
+.index-top,.com-recommend,.detail-all,.show-pic ul li,.location-top,.com-location-center ul li,.add-goods,.message,.mes select,.removeadd,.status,.lef,.twocode,.succ,.index-foot.car-foot li.car-total,.chosed,.order-all li,.switch,.myorder li,.alertinfo,.address-all,.add-address,#choiceAddress ul li,.loadBj,.location-foot .loc-li{
+    background: #ffffff;
+}
+/*end*/
+
+/*通用灰色#dfdfdf背景颜色*/
+.number .min-add .text_box,.number .min-add .add,.pro-num,.contro-btn{
+    background: #dfdfdf;
+}
+/*end*/
+
+/*border通用红色边框*/
+.common-redTOP,.com-border3,.com-border5,.com-border6,.com-border7,.com-center-right span,.finished,.default-add{
+    border: 1px solid #dc3b36;  
+}
+/*end*/
+
+/*通用红色文字*/
+.bot p,.bot span,.cost h3,a.price,a.price span,a.price i,.com-center-right h2,.center-money b,.center-money .inall span,.location-foot .loc-li span,.order-state span,.default-address,.removeadd span,.confirm-btn{  
+    color: #dc3b36;
+}
+/*end*/
+
+/*通用白色文字*/
+.com-border7,.redTOP-left,.redTOP-rigth,.collect span,p,.common-pop,.recom p,.name-money span,.index-foot .li-red,.index-foot .li-red a,.index-foot .gray a,.car-ul ul li a,.index-foot.car-foot li a,.location-foot .loc-li2 a,.finished,.com-add-footer span,.com-add-footer span a,.default-add,.back_index,.back_index a,.car-ul ul li,.index-foot.car-foot,.del-btn,.del-btncss,.ad_2{
+    color: #ffffff;
+}
+/*end*/
+
+/*通用黑色文字*/
+.name-money,.name-money p,.chosed,.index-foot.car-foot li.car-total,a.priceyf,.order-state a,.address-info,.address-info span,.address-info p,.address-info p a,.alertinfo p,.twocode p,.location-name-tel a,.finish a,.center-money p,.add-goods p,.switch li a,.status-li ul li p,.man-message h3,.goods-message h3{
+    color: #000000;
+}
+/*end*/
+
+/*通用#9c9c9c颜色文字*/
+.detail p,.cost p,.colr span,.colr ul li a,.colr .color,.location-foot .loc-li p,.colr p,.ad_1 a,.com-center-right a{
+    color: #9c9c9c;
+}
+/*end*/
+
+/*同用#7e7e7e颜色文字*/
+.show-pic ul li p,.location-name-tel p,.adds b,.com-center-right p,.com-center-right h3,.center-money .inall p,.mes .sp-col{
+    color: #7e7e7e;
+}
+/*end*/
+
+/*边框border白色*/
+.show-pic ul li,.com-border4,.twocode,.succ,.alertinfo{
+    border: 2px solid #ffffff;
+	height: 8px;
+    display: inline-block;
+	margin-left:4px;
+}
+/*end*/
+
+/*边框border-bottom：#dddddd颜色*/
+.chosed,.order-all li,.pro-info,.swipeout,.status-li ul li{
+    border-bottom: 1px solid #dddddd;
+}
+/*end*/
+
+/*border*/
+.com-border2{
+    background: rgba(220, 59, 54, 0.8); 
+    border: 1px solid rgba(220, 59, 54, 0.8);  
+}
+/*end*/
+
+/*首页店长推荐下面推荐li*/
+.bot{
+    background: #f4f4f4;
+}
+.lef{
+    border: 1px solid #f1f1f1;
+}
+.bot h2{
+    color: #888888;
+}
+/*end*/
+
+/*首页footer*/
+.index-foot li a{
+    color: #888888;
+}
+.com-footborder{              /*首页底部*/
+    background: #f7f7f7;
+    border-top: 1px solid #f1f1f1;
+}
+.com-footborder li{           /*首页底部*/
+    border-left: 1px solid #f1f1f1;
+}
+.index-foot .gray{
+    background:#9c9c9c;
+}
+/*end*/
+
+ /*选择数量及颜色*/
+.detail span{
+    border: 1px solid #9c9c9c;
+	float:right;
+	height:2em;
+}
+.number .min-add .min{
+    background: #f1f1f1;
+}
+.colr .color{
+    border: 1px solid #9c9c9c;
+}
+/*end*/
+
+ /*商品详情页图片展示部分*/
+.show-pic{
+    background: #f1f1f1;
+}
+ /*end*/
+
+/*二维码pop-up*/
+.common-twocode{         /*通用pop-up黑色背景*/
+    background: rgba(0, 0, 0, 0.44);
+}
+/*end*/
+
+/*成功加入购物车pop-up*/
+.succeed{
+    background: rgba(0, 0, 0, 0.44);
+}
+/*end*/
+
+/*结算详情*/
+.center-al{
+    border-bottom: 1px solid #dfdfdf;   
+}
+.center-money input{
+    background: #fafafa;
+    border: 1px solid #dfdfdf;
+}
+/*end*/
+
+/*购物车*/
+.order-all li{
+    border-top: 1px solid #dddddd;
+}
+.order-info{
+    background: #f1f1f1;
+}
+/*end*/
+
+/*添加收货地址*/
+/*添加收货地址填写信息*/
+.mes ul li{
+    border-bottom: 1px solid #e5e5e5;
+}
+/*end*/
+
+/*我的订单*/
+.car-content{
+    background: #f1f1f1;
+}
+.switch-bor{
+    border-bottom: 2px solid #dc3b36;
+}
+.pro-info{
+    border-top: 1px solid #dddddd;
+}
+.order-state a{
+    border: 1px solid #000;
+}
+/*end*/
+
+/* 我的地址 */
+.add-in{
+    border-right:1px solid #dddddd; 
+}
+/*end*/
+
+/*弹框*/
+.alert{
+    background: rgba(0, 0, 0, 0.9);
+}
+.cancel-btn{
+    border-right: 1px solid #ccc;
+    color: #d1d1d1;
+}
+/*end*/
+/*商品详情页颜色选择红色border*/
+.colr .red{
+    border: 1px solid #dc3b36;
+    color: #dc3b36;
+	font-size:1em;
+	line-height:1.1em;
+	height:1.1em;
+	padding:0 10%;
+}
+/*提交按钮*/
+.subgray {
+    background: #9c9c9c;
+}
+/*管理收货地址*/
+.add_footer{
+    background: #f7f7f7;
+    border-top: 1px solid #d7d7d7;
+}
+.add_footer li{
+    border-left: 1px solid #d6d6d6;
+}

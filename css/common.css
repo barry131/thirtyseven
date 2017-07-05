@@ -1,0 +1,397 @@
+/*通用css 顶部红色条*/
+.common-redTOP{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    padding: 6% 0;
+    margin:0 auto;
+    max-width: 640px
+}
+/*end*/
+/*购物车*/
+.car-ul{
+    padding: 0;
+}
+.car-ul ul{
+    width: 100%;
+}
+.car-ul ul li{
+    width: 23.4%;
+    text-align: center;
+    display: inline-block;
+    padding: 4% 0;
+    background:url(../images/car-bor.png) no-repeat;
+    font-size: 1.1em;
+    position: relative;
+}
+.car-ul ul li a{
+    display: block;
+}
+.car-toparrow{
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    bottom: -22%;
+    display: none;
+}
+.carshow{
+    display: block;
+    margin-bottom: 13%;
+}
+.car-ul ul li.car-nobor{
+    background: none;
+}
+.index-foot.car-foot{
+    text-align: center;
+}
+
+.index-foot.car-foot li{
+    background: url(../images/car-bor.png) no-repeat;
+    width: 23.5%;
+    padding: 4% 0;
+    border: 0;
+}
+.index-foot.car-foot li.car-total{
+    width: 52%;
+}
+.index-foot.car-foot li a{
+    display: inline;
+}
+a.price{
+    position: relative;
+}
+a.price span{
+    font-size: 1.3em;
+    margin-left: 7%;
+}
+a.price span.tprice{
+    margin-left: 8%;
+}
+a.price i{
+    position: absolute;
+    top: -5%;
+    right: 80%
+}
+a.priceyf{
+    position: relative;
+}
+a.priceyf span{
+    font-size: 1.3em;
+    margin-left: 13%;
+}
+a.priceyf i{
+    position: absolute;
+    top: -5%;
+}
+/*end*/
+/*弹框*/
+.alert{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 3;
+}
+.alertinfo{
+    position: absolute;
+    top: 35%;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    border-radius: 4px;
+}
+.alertinfo p{
+    padding: 12% 0 10% 0;
+}
+.alert-btn{
+    border-top: 1px solid #ccc;
+    overflow: auto;
+    text-align: center;
+}
+.cancel-btn{
+    width: 49%;
+    padding: 3% 0;
+    float: left;
+}
+.confirm-btn{
+    width: 50%;
+    padding: 3% 0;
+    float: left;
+}
+/*end*/
+
+/*loading*/
+.loading{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.88);
+    text-align: center;
+}
+/*end*/
+
+/*border*/
+.com-border1{                  /*四周角度*/
+    border-radius: 4px;
+    padding: 1% 6%;
+    position: absolute;
+    top: 23%;
+}
+.com-border2{                  /*左上左下角度*/
+    border-radius: 20px 0 0 20px;
+    padding: 0 2%;
+}
+.com-border3{                  /*右上右下角度*/
+    border-radius: 0 16px 16px 0; 
+}
+.com-border5{                 /*商品列表中右侧圆弧状小*/
+    margin-left: -24%;
+    border-radius: 0 6px 6px 0;
+}
+.com-border6{                 /*首页销量红色框*/
+    border-radius: 6px;
+    padding: 1px 11px;
+}
+.com-footborder{              /*首页底部*/
+    margin: 0 auto;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    max-width: 640px;
+    /*padding:2% 0;*/
+}
+.com-footborder li{           /*首页底部*/
+    width: 24%;
+    float: left;
+    padding-top: 2%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+/*卖家留言底部*/
+/*.com-locborder{              
+    margin: 0 auto;
+    width: 100%;
+    bottom: 0;
+    max-width: 640px;
+    margin-top: 37%;
+}
+.com-locborder li{        
+    width: 24%;
+    float: left;
+    padding-top: 2%;
+    text-align: center;
+    padding-bottom: 1%;
+}*/
+.botm-show{
+    display: none;
+}
+.com-border7{                /*购物车小数字*/
+    width: 15px;
+    height: 15px;
+    border-radius: 16px;
+    font-size: 0.7em;
+    text-align: center;
+    line-height:16px;
+}
+.carpronum{
+    width: 15px;
+    height: 15px;
+    border-radius: 16px;
+    font-size: 0.7em;
+    text-align: center;
+    line-height:16px;
+    position:absolute;
+    left:63%;
+    top:15%;
+}
+/*end*/
+
+/*首页顶部logo及关注通用条*/
+.index-top{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    max-width: 640px;
+}
+.redTOP-left{
+    float: left;
+    width: 50%;
+}
+.redTOP-left img {
+    width: 30%;
+    position: absolute;
+    left: 2%;
+    top: 34%;
+}
+.redTOP-left p{
+    display: inline-block;
+    margin-left: 32%;
+}
+.redTOP-rigth{
+    float: right;
+    margin-right: 0;
+    width: 25%;
+}
+.common-pop{
+
+}
+/*end*/
+
+/*二维码pop-up*/
+.common-twocode{         /*通用pop-up黑色背景*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+    display: none;
+}
+.twocode{
+    width: 60%;
+    margin: 0 auto;
+    margin-top:50%;
+    border-radius: 8px;
+    padding: 9% 0;
+    text-align: center;
+}
+.twocode img:nth-child(1){
+    width: 70%;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+.twocode img:nth-child(2){
+    width: 8%;
+    position: absolute;
+    top: 32%;
+    right: 22%;
+}
+.twocode p{
+    width: 100%;
+    text-align: center;
+    margin-top: 6%;
+    font-size: 1.2em;
+}
+/*end*/
+
+/*成功加入购物车pop-up*/
+.succeed{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+    display: none;  
+}
+.succ{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 60%;
+    border-radius: 8px;
+    padding: 9% 0;
+    text-align: center;
+}
+/*end*/
+
+/*结算详情*/
+.com-location-center ul li{
+    margin-bottom: 4%;
+}
+.com-center-all{
+	width: 97%;
+    padding-left: 3%;
+    /*width: 100%;
+    margin-top: 4%;*/  
+}
+.com-center-al{
+    width: 90%;
+    margin: 0 auto;
+}
+.com-center-num{
+    width: 40%;
+    padding-left: 2%; 
+}
+.com-center-num img{
+    width: 65%;
+}
+.com-center-right{
+    width: 66%;
+    float: right;
+    margin-top: -29%;
+}
+.com-center-right h1{
+    font-size: 1.1em;
+    font-weight: 100; 
+    padding-bottom: 5%;  
+}
+.com-center-right p{
+    padding-bottom: 5%; 
+}
+.com-center-right span{
+    padding: 0 14px;
+    margin-left: 5%;  
+    vertical-align: top;
+}
+.com-center-right h2{
+    display: inline-block;
+    font-size: 1.4em; 
+}
+.com-center-right h3{
+    display: inline-block;
+    float: right;
+    font-size: 1.2em;
+    padding-top: 2%;
+    padding-right: 7%; 
+    text-align: right; 
+}
+.com-center-right h3 input{
+    width: 10%;
+    border: 0;
+}
+/*end*/
+
+/*添加收货地址填footer*/
+.com-add-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 4% 0;
+    text-align: center;
+    max-width: 640px;
+}
+.com-add-footer span{
+    font-size: 1.3em;
+}
+/*end*/
+
+
+/*敬请期待*/
+.staytuned{
+    padding-top: 40%;
+    font-size: 2em;
+    text-align: center;
+}
+
+/*页面底部返回首页图片*/
+/*底部通栏样式*/
+.com-backimg{
+    /*position: fixed;
+    bottom: 0;*/
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+.com-backimg img{
+    vertical-align: middle;
+    width: 40%;
+}
+
+
+
+
+
+

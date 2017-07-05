@@ -1,0 +1,1043 @@
+body,html{margin:0; padding:0; font-family:"黑体"}
+body,div,ul,li,span,p,input,table,tr,td,h1,h2,h3,h4,h5,h6,article{margin:0; padding:0;}
+ul,li{ list-style:none;}
+img{ border:none; max-width:100%;}
+a{ text-decoration:none;}
+a:hover{color:none;}
+button,select,textarea{outline:none}
+body,html{
+	max-width:640px;
+    width: 100%;
+    height:auto;
+	margin:0 auto;
+	overflow:auto;
+    font-size: 24px;
+}
+b{font-weight: normal;}
+i{font-style: normal;}
+input[type=button]{
+    -webkit-appearance:none;
+    outline:none
+}
+/*清除浮动*/
+.clearfix:after{content:"\200B"; display:block; height:0; clear:both; }
+.clearfix{ *zoom:1; }
+
+/*首页顶部轮播图*/
+.main_visual{
+    height:187px;
+    overflow:hidden;
+    position:relative;
+    margin-top: 11%;
+}
+.visual2{
+    height: 100%!important;
+}
+.main_image{
+    height:422px;
+    overflow:hidden;
+    position:relative;
+}
+.ma_img2{
+    height: 331px;
+}
+.main_image ul{
+    width:100%;
+    height:422px;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:0
+}
+.main_image li{
+    float:left;
+    width:100%;
+}
+.main_image li span{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.main_image li a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.main_image li span img{
+    width: 100%;
+    /*height:100%;*/
+}
+div.flicking_con{
+    position:absolute;
+    bottom:8%;
+    left:40%;
+    z-index:1;
+}
+div.flicking_con a{
+    float:left;
+    width:21px;
+    height:21px;
+    margin:0;
+    padding:0;
+    background:url('images/btn_main_img.png') 0 0 no-repeat;
+    display:block;
+    text-indent:-1000px
+}
+div.flicking_con a.on{
+    background-position:0 -21px;
+}
+#btn_prev,#btn_next{
+    position:absolute;
+    display:block;
+    width:73px!important;
+    height:74px!important;
+    top:20%;
+    display:none;
+}
+#btn_prev{
+    background:url(../images/hover_left.png) no-repeat left top;
+    left:10%;
+    background-size: 30% 30%;
+}
+#btn_next{
+    background:url(../images/hover_right.png) no-repeat right top;
+    right:10%;
+    background-size: 30% 30%;
+}
+.collect{
+    position: absolute;
+    top: 82%;
+    right: 0;
+    width: 32%; 
+}
+.collect img{  
+    vertical-align: middle;
+    margin-left: 12%;
+}
+.collect span,p{
+    display: inline-block;
+    vertical-align: bottom;
+}
+/*end*/
+
+/*店长推荐border*/
+.recom{
+    padding: 1% 2%;
+    margin-top: 2%;
+    width: 25%;
+    margin-bottom: 3%;
+	line-height:1.4em;
+}
+.recom .line{
+    vertical-align: middle;  
+}
+.recom p{
+    vertical-align: middle;
+    padding-left: 4%;  
+}
+.recom img{
+    vertical-align: middle;
+    padding-left: 5%;   
+	width:10px;
+}
+.com-border1{
+	border:1px solid #fff;
+	line-height:1.1em;
+	height:1em;
+	font-size:1.1em;
+	padding:0 6%;
+}
+/*end*/
+
+/*首页店长推荐下面推荐li*/
+.com-recommend{
+    width: 100%;
+    overflow: scroll;
+    margin-bottom: 14%;
+}
+.mend2{
+    margin-bottom: 19%!important;
+}
+.lef{
+    width: 48%;
+    float: left;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+.lef a{
+    display: block;
+}
+.lef img{
+    width: 100%;
+}
+.lef .lin{
+    width: 100%;
+	position: relative;
+    top: 2px;
+}
+.name-money{
+    width: 44%;
+    float: right;
+    margin-top: -100%;
+    line-height: 1.2em;
+}
+.name-money p{
+    margin-bottom: 20%;
+    font-size: 0.8em;
+}
+.name-money span{
+    padding: 7px 20px;
+}
+.name-money span i{
+    font-size:1.2em;
+}
+.name-money .img2{
+    margin-top: 16%;
+}
+.bot{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;   
+}
+.bot img{
+    width: 100%;   
+}
+.bot h2{
+    font-size: 0.8em;
+    padding-top: 3%;
+}
+.bot p{   
+    padding: 5% 9% 5% 0;
+    vertical-align: middle;
+}
+.bot span{
+    vertical-align:middle;
+}
+.name-money .we{
+    width: 80%;
+}
+.wait{
+    width: 48%;
+    float: right;
+    margin-top: 11%;
+}
+.wait img{
+    width: 90%;
+}
+/*end*/
+
+/*首页footer*/
+.index-foot li a{
+    display: block;
+}
+.index-foot li a img{
+    width:30%;
+    vertical-align: middle;
+}
+.index-foot .li-red{
+    padding-bottom: 3.6%;
+    /*padding-right: 2.9%;*/
+    display: block;
+    width: 27.4%;
+    border-left: 0;
+}
+.index-foot .gray{
+    padding: 5.4% 0;
+    border-left: 0;
+}
+.num{
+    position: absolute;
+    left: 67%;
+    top: 0;
+    right: 28%;
+}
+.index-foot .li-red a{
+    font-size: 1.1em;
+    width: 100%;
+    margin-left: 4%;
+	position:relative;
+	top:-3px;
+}
+/*end*/
+
+ /*选择数量及颜色*/
+ .detail-all{
+    padding: 0.2% 0;
+ }
+ .detail{      
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+ }
+.detail p{
+    width: 80%;
+    vertical-align: middle;
+    padding-left: 3%;
+}
+.detail img{
+    vertical-align: middle;
+    width: 12%;
+	float:right;
+    /*padding-left: 3%;*/
+}
+.number{
+    width: 95%;
+    margin: 0 auto;    
+}
+.cost h3{
+    padding-left: 3%;
+}
+.cost p{
+    float:right;
+    margin-top: -5%;
+	padding-right:3.5%;
+}
+.min-add{
+    margin-left: 74%;
+    margin-top: 2%;
+}
+.number .min-add .min{
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+.min-add .text_box{
+    width: 23px;
+    height: 23px;
+    border: none;
+    text-align: center;
+}
+.min-add .add{
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+.colr{                   
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 4%;
+	position:relative;
+	top:-15px;
+}
+.colr span{
+    display: block;
+    margin-bottom: 3%;
+}
+.colr ul li{
+    display: inline-block;
+    width: 20%;
+}
+.colr .color{  
+    display: block;
+    text-align: center;
+	font-size:1em;
+	line-height:1.2em;
+	height:1.2em;
+	padding:0 10%;
+}
+.colr .red{
+    padding: 1% 10%;
+}
+.colr p{
+    float: right;
+    margin-top: -5%;
+	padding-right:1%;
+}
+/*end*/
+
+ /*商品详情页图片展示部分*/
+.show-pic{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.show-pic ul{
+    width: 100%;
+    text-align: center;
+}
+.show-pic ul li{
+    margin-bottom: 5%;
+}
+.show-pic ul li p{
+    padding-bottom: 3%;
+}
+ /*end*/
+
+/*地址页面top*/
+.location-top{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.1em;
+    position: relative;
+    padding: 1% 0;
+}
+.location-name-tel{
+    width: 92%;
+    margin: 0 auto;
+    padding-top: 4%;
+    margin-bottom: 2%;
+}
+.location-name-tel a{
+    display: block;
+}
+.location-name-tel span{
+    font-size: 1.2em;
+}
+.location-name-tel p{
+    padding-left: 14%;
+    padding-bottom: 1%;
+}
+.location-name-tel img{
+    width: 5%;
+    vertical-align: middle;
+}
+.adds{
+    width: 92%;
+    margin: 0 auto;
+    padding-bottom: 4%;
+}
+.adds img{
+    width: 5%;
+    vertical-align: middle;
+}
+.top-right{
+    position: absolute;
+    top: 28%;
+    right: 5%;
+    font-size: 1.5em;
+}
+/*end*/
+
+/*结算详情*/
+.center-moy{
+    margin-top: 5%;
+    width: 91%;
+}
+.center-money{
+    width: 100%;
+    margin-left: 7%;
+    padding-bottom: 5%;
+}
+.center-money p{
+    display: inline-block;
+}
+.center-money b{
+    float: right;
+    margin-right: 6%;
+    font-size: 1.5em;   
+}
+.center-money input{
+    margin-top: 2%;
+    height: 30px;
+    width: 93%; 
+}
+.center-money .inall{
+    margin-left: 46%;
+    margin-top: 4%;   
+}
+.center-money .inall span{
+    font-size: 1.5em;
+}
+.center-money .inall p{
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+
+/*end*/
+
+/*提交订单footer*/
+.location-foot ul li{
+    width:40%;
+    padding: 3% 0;
+}
+.location-foot .loc-li{
+    width: 57%;
+}
+.location-foot .loc-li p{
+    vertical-align: middle;
+}
+.location-foot .loc-li span{
+    font-size: 1.4em;
+    vertical-align: middle;
+}
+.location-foot .loc-li2{
+    /*padding:4% 1.29%;*/
+    padding: 4% 0;
+    width: 42.45%;
+}
+.location-foot .loc-li2 a{
+    display: block;
+}
+/*end*/
+
+
+/*购物车*/
+.chosed{
+	width: 90%;
+	margin: 0 auto;
+	padding: 2% 5%;
+	overflow: auto;
+	padding-top: 17%;
+	font-size: 1.2em;
+}
+.chosed span{
+	float:left;
+	width: 50%;
+}
+.finish{
+	text-align: right;
+}
+.chose-all img{
+	width: 12%;
+	margin-right: 2%;
+	vertical-align: middle;
+}
+.order-all li{
+	width: 90%;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 3% 5%;
+	margin: 3% 0;
+}
+.carshow.order-all li{
+	width: 100%
+}
+.order-info{
+	padding-bottom: 15%;
+}
+.chose-inp{
+	float: left;
+	width: 7%;
+	margin-top: 8%;
+}
+.com-center-al.car-proinfo{
+	margin-left: 9%;
+	position: relative;
+}
+/*.pro-img{
+	float: left;
+	width: 30%;
+	margin: 0 5%
+}
+.pro-info{
+	float: left;
+	width: 54%;
+}
+.pro-self{
+	margin-top: 25%;
+    text-align: right;
+}
+.pro-self p{
+	float: left;
+	color: red;
+}
+.pro-self p span.price{
+	color: red;
+	font-size: 1.4em;
+}*/
+.pro-num{
+	width: 15%;
+	text-align: center;
+	border: 0;
+	padding: 3%;
+}
+.contro-btn{
+	border: 0;
+	padding: 3%;
+	width: 14%;
+	text-align: center;
+}
+.control-btn{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+.edit-contrl{
+	position: absolute;
+    top: 30%;
+	right: 8%;
+}
+.pro-edit{
+	text-align: center;
+}
+.check-btn{
+	display: none;
+}
+/*end*/
+
+/*添加收货地址*/
+/*添加收货地址头部*/
+.add-goods{
+    width: 100%;
+    padding: 4% 0;
+    text-align: center;
+}
+.ad-gods{
+    padding:0 0!important;
+}
+.finished{
+    position: absolute;
+    right: 4%;
+    padding: 1% 4%;
+    top: 2%;
+} 
+.add-goods p{
+    font-size: 1.2em;
+}
+/*end*/
+/*添加收货地址填写信息*/
+.message{
+    width: 100%;
+    margin-top: 6%;
+}
+.mes{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+.mes ul li{
+    padding: 2% 5%;
+    display: block;
+}
+.mes span{
+    width: 32%;
+    float: left;
+    display: block;
+}
+.mes input{
+    height: 20px;
+    padding-left: 7%;  
+    border: none;
+	width: 60%;
+}
+.mes select{
+    /*padding: 1% 16%; */
+    display: block;  
+    /*border: none; */
+    /*border: 0;*/
+    width: 65%;
+    height: 25px;
+}
+/*.mes .sheng{
+    padding: 1% 16%;
+}*/
+.mes .selts{
+    display: none;
+    /*padding: 1% 20%;*/
+    /*display: block;*/
+}
+/*end*/
+/*end*/
+
+
+/*我的订单*/
+.car-new{
+    padding: 3% 0!important;
+}
+.car-content{
+	padding: 10% 0;
+}
+.switch{
+	margin-top: 3%;
+	overflow: auto;
+}
+.manage-address{
+	padding: 4% 0;
+	text-align: center;
+}
+.switch li{
+	width: 15%;
+	float: left;
+	padding: 5% 0 3% 0;
+	margin: 0 5%;
+	text-align: center;
+}
+.myorder{
+	display: block;
+}
+.myorder li{
+	padding: 4% 0 4% 0;
+	margin: 3% 0;
+	overflow: auto;
+}
+.pro-info{
+	overflow: auto;
+	padding: 2% 5%;
+	margin: 3% 0;
+	width: 90%;
+}
+.pro-info span{
+	padding-top: 1%;
+	display: inline-block;
+}
+.pro-info div{
+	float: right;
+	width: 30%;
+	margin-left: 8%;
+}
+
+.order-state{
+	width: 90%;
+	margin: 0 auto;
+}
+.order-state span{
+	padding-top: 1%;
+	display: inline-block;
+}
+.order-state a{
+	float: right;
+	padding: 1% 2%;
+	text-align: center;
+}
+
+/*end*/
+
+/* 我的地址 */
+.address-all{
+	margin-top: 2%;
+}
+.address-all .add-in{
+	border: 0;
+}
+.address-all .showimg{
+	display: none;
+}
+.swipeout{
+	overflow: hidden;
+	padding: 3%;
+	width: 94%;
+	position: relative;
+}
+.swipeout p{
+	display: block;
+}
+.address-info{
+	overflow: auto;
+	font-size: 0.8em;
+	position: relative;
+	width: 88%;
+}
+.address-info p{
+	margin: 2% 0;
+	font-size: 0.8em;
+}
+.address-info p .address-tel{
+	right: 2%;
+    position: absolute;
+}
+.default-address{
+	margin-right: 1%;
+}
+.address-choseimg{
+	width: 9%;
+    right: 3%;
+	position: absolute;
+	top: 30%;
+}
+.del-btncss{
+	padding: 0 8%;
+	width: 84%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+    right: -100%;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-align:center;
+	
+	/* Safari、Opera 以及 Chrome */
+	display:-webkit-box;
+	-webkit-box-align:center;
+	
+	/* W3C */
+	display:box;
+	box-align:center;
+	transition: 500ms;
+	transform: translate3d(0px, 0px, 0px);
+}
+/*end*/
+
+/*删除收货信息footer*/
+.removeadd{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 6%;
+    padding: 4% 0;
+}
+.removeadd span{
+    font-size: 1.2em;
+	padding-left:9%;
+}
+/*设置收货为默认footer*/
+.default-add{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    padding: 4% 0;
+    text-align: center;
+    max-width: 640px;
+}
+/*end*/
+
+/*选择收货地址*/
+.list-block .swipeout{
+    font-size: 1.2em;
+	position: relative;
+}
+.choice-inp{  
+    width: 7%;
+    margin-top: 1%;
+    margin-right: 6%;
+}
+.checks-btn{
+    display: none;
+}
+.choice-inps img{
+    width: 50%;
+}
+/*end*/
+/*我的地址*/
+/*.list-block{
+	margin-top: 2%;
+	font-size: 1.2em;
+}
+.list-block .swipeout {
+    border-bottom: 1px solid #dddddd;
+    overflow: hidden;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+	background: #fff;
+}
+.list-block .item-content {
+    box-sizing: border-box;
+    padding-left: 15px;
+    min-height: 44px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.list-block .swipeout-actions-right {
+    right: 0;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+.list-block .swipeout-actions-left, .list-block .swipeout-actions-right {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.list-block .swipeout-actions-left a.swipeout-delete, .list-block .swipeout-actions-right a.swipeout-delete {
+    background: #ff3b30;
+}
+.list-block .swipeout-actions-left a, .list-block .swipeout-actions-right a {
+    padding: 0 15px;
+    color: #fff;
+    background: #c7c7cc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+    left: 0;
+}
+.swipeout p{
+	display: block;
+}
+*/
+
+/*订单详情页*/
+/*订单详情头部*/
+.bak-in{
+    padding:3% 0!important;
+}
+.back_index{
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em; 
+}
+.back_index a{
+    margin-top: 1%;
+}
+.back_index h3{
+     display: inline-block;
+     font-size: 1.2em;   
+}
+.back_index .back{
+    float: left;
+    margin-left: 3%;   
+}
+.back_index .bakindex{
+    float: right;
+    margin-right: 3%;  
+}
+/*end*/
+/*订单状态及订单编号*/
+.status{
+    width: 100%;
+    margin-top: 16%;
+}
+.status-li{
+    width: 90%;
+    margin: 0 auto;
+    padding: 3% 0;
+}
+.status-li ul li{
+    padding: 3% 0;
+}
+.status-li ul li span{
+    font-size: 1.2em;
+}
+/*end*/
+/*收获人信息*/
+.man-message{
+    margin-top: 3%;
+}
+.man-message h3{
+    margin-bottom:2%; 
+    font-size: 1.2em;
+    margin-left: 3%;
+}
+/*end*/
+/*商品信息*/
+.goods-message{
+    margin-top: 3%;
+}
+.goods-message h3{
+    margin-bottom:2%; 
+    font-size: 1.2em;
+    margin-left: 3%;
+}
+.pi{
+    margin-top: -1.4%;
+}
+/*end*/
+
+/*添加地址弹框*/
+.add-address{
+    position: relative;
+    padding: 7% 0;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 15%;
+}
+.close-btn{
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    font-size: 2em;
+}
+.address-btn{
+    width: 60%;
+    margin-top: 5%;
+    padding: 4% 0;
+    text-align: center;
+}
+/*end*/
+/*添加收货地址填footer*/
+.com-add-footer span a{
+    display: block;
+}
+#addAdress{
+    /*background: #f1f1f1;*/
+    display: none;
+    z-index: 2;
+}
+#choiceAddress{
+    /*background: #f1f1f1;*/
+    display: none;
+}
+#choiceAddress ul li{
+    /*background: #fff;*/
+}
+#choiceAddress .address-info{
+    text-align: left;
+    width: 87%;
+    padding-right: 3%;
+}
+#editAddress{
+    display: none;
+    /*background: #f1f1f1;*/
+    z-index: 2;
+}
+/*end*/
+
+/*设置弹框背景透明*/
+.loadBjcolor{
+    background: none;
+}
+.loadBj{
+    width: 90%;
+    height: 80%;
+    position: relative;
+    margin: 10% auto;
+    padding-top: 3%;
+}
+.loadBj .com-footborder{
+    position: absolute;
+}
+.loadBj .com-add-footer{
+    position: absolute;
+}
+.loadBj .car-content{
+    height: 73%;
+    overflow-y: scroll;
+}
+.loadBj .default-add{
+    position: absolute;
+}
+/*提交按钮*/
+/*.subgray {
+    background: #9c9c9c;
+}*/
+
+
+/*管理收货地址*/
+.add_footer{
+    margin: 0 auto;
+    width: 83%;
+    position: fixed;
+    bottom: 0;
+    max-width: 640px;
+}
+.add_footer li{
+    text-align: center;
+    padding-bottom: 1%;
+}
+.ad_1{
+    width: 28%;
+}
+.ad_1 img{
+    width: 27%;
+}
+.ad_2{
+    margin-left: 29%;
+    padding:3.6% 0!important;
+}
+.ad_2 span{
+    margin-right: 27%;
+}
+
+
+
+
+

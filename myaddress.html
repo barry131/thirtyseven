@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>37度官方微店</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/sty.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/color.css">
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 321px) and (max-width: 480px)" href="css/sty480.css">
+<link rel="stylesheet" media="screen and (max-width: 320px)" href="css/sty320.css" />
+</head>
+
+<body>
+<div class="index-top">
+<!--顶部logo及关注 -->
+    <div class="common-redTOP car-ul">
+        <ul>
+        	<li class="car-nobor"><a href="car.html">购物车<span class="car-toparrow"><img src="images/sanjiao.png"></span></a></li>
+        	<li><a href="myorder.html">我的订单<span class="car-toparrow"><img src="images/sanjiao.png"></span></a></li>
+        	<li><a href="myaddress.html">我的地址<span class="car-toparrow carshow"><img src="images/sanjiao.png"></span></a></li>
+        	<li><a href="coupon.html">优惠券<span class="car-toparrow"><img src="images/sanjiao.png"></span></a></li>
+        </ul>              
+    </div>
+</div>
+<!--end-->
+	<div class="car-content">
+    	<div class="switch">
+        	<div class="manage-address">管理收货地址</div>
+        </div>
+        <div class="orderinfo">
+            <div class="list-block">
+            	<ul class="address-all"><li class="swipeout">
+                            <div class="address-info editAddress" data-is="0">
+                            	<div class="add-in">
+                                    <p><span>收获人：<i class="defName">耗子</i></span><span class="defTel">aaaaaaaaaa</span></p>
+                                    <p><i class="default-address">[默认]</i><span class="defAdd">北京市 西城区 西直门展览路aaa街道3号楼</span></p>
+                            	</div>
+                            </div>
+                            <span class="address-choseimg setDefaultAddress showimg"><img src="images/default-chose.png"></span>
+                            <div class="del-btncss address-id" data-id="1">删除</div>
+                        </li>
+                        <li class="swipeout">
+                            <div class="address-info editAddress" data-is="0">
+                            	<div class="add-in">
+                                    <p><span>收获人：<i class="defName">耗子</i></span><span class="defTel">bbbbbbbbbbbbb</span></p>
+                                    <p><i class="default-address">[默认]</i><span class="defAdd">北京市 西城区 西直门展览路aaa街道3号楼</span></p>
+                            	</div>
+                            </div>
+                            <span class="address-choseimg setDefaultAddress showimg"><img src="images/chose-circle.png"></span>
+                            <div class="del-btncss address-id" data-id="2">删除</div>
+                        </li>
+                        <li class="swipeout">
+                            <div class="address-info editAddress" data-is="0">
+                            	<div class="add-in">
+                                    <p><span>收获人：<i class="defName">耗子</i></span><span class="defTel">ccccccccccccc</span></p>
+                                    <p><i class="default-address">[默认]</i><span class="defAdd">北京市 西城区 西直门展览路aaa街道3号楼</span></p>
+                            	</div>
+                            </div>
+                            <span class="address-choseimg setDefaultAddress showimg"><img src="images/chose-circle.png"></span>
+                            <div class="del-btncss address-id" data-id="3">删除</div>
+                    </li>
+                </ul>
+            </div>
+    	</div>
+    </div>
+<!--footer-->
+<div class="add_footer">
+    <ul>
+        <li class="ad_1"><a href="index.html"><img src="images/icon_1.png"><br>首页</a></li>
+        <li  class="com-add-footer addAdress ad_2" data-is="1"><span>添加新地址</span></li>
+    </ul>
+</div>
+<!--end-->
+<!--添加和修改收货地址-->
+<div class="loading" id="addAdress">
+	<div class="loadBj">
+        <div class="add-goods">
+            <p class="addinfo">添加收货地址</p>  
+            <p class="editinfo">修改收货地址</p>  
+            <span class="finished editinfo" data-is="0">完成</span>
+        </div>
+        <div class="message">
+            <form method="post" style="margin:0px;" target="submitObj">  
+            	<input type="hidden" id="recAddressId">
+                <div class="mes">
+                    <ul>
+                        <li>
+                            <span class="sp-col">收获人：</span>
+                            <input type="text" id="name" value="">
+                        </li>
+                        <li>
+                            <span class="sp-col">手机号码：</span>
+                            <input type="text" id="tel" value="" maxlength="11">
+                        </li>
+                        <li>
+                            <span class="sp-col">邮政编码：</span>
+                            <input type="text" id="zipcod" value="">
+                        </li>
+                        <li>
+                            <span>省：</span>
+                            <select class="sheng" id="sheng" name="province" value=""></select>
+                        </li>
+                        <li>
+                            <span>市：</span>
+                            <select class="selt" id="shi" name="city" value=""></select>
+                        </li>
+                        <li>
+                            <span>区：</span>
+                            <select class="selt" id="xian" name="country" value=""></select>
+                        </li>
+                        <li>
+                            <span>详细地址：</span>
+                            <input type="text" id="address" value="">
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+        <div class="removeadd editinfo" id="remGoods">
+            <span class="address-id" data-id="1">删除收货地址</span>
+        </div>
+        
+        <div class="default-add editinfo setDefaultAddress" id="amendGoods" data-id="1">
+            <span>设置成默认收货地址</span>
+        </div>
+        
+        <div class="com-add-footer addinfo add_goodsaddress" data-is="1" id="addGoods">
+            <span><a>确认</a></span>
+        </div>
+    </div>
+</div>
+<!--<script src="js/common/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/address/city_array.js"></script>
+<script type="text/javascript" src="js/address/city_call.js"></script>
+<script type="text/javascript" src="js/address/city_show.js"></script>
+<script type="text/javascript" src="js/car.js"></script>
+<script type="text/javascript" src="js/details.js"></script>
+<script type="text/javascript">
+    $(function(){initLocation({sheng_val:"",shi_val:"",xian_val:"<?php echo $v['country']?>"});})
+</script>-->
+<script type="text/javascript" src="js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('panels/address.js',function(obj){
+        obj.init();
+    })
+</script>
+<script type="text/javascript"></script>
+</body>
+</html>

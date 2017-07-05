@@ -1,0 +1,81 @@
+body{
+    font-size: 12px;
+}
+/*苹果4之类的屏幕尺寸*/
+@media screen and (max-height: 420px){
+.number .min-add {
+    margin-left: 71%;
+}  
+.twocode{
+    margin-top:30%;   
+}  
+.twocode img:nth-child(2){
+    top: 25%;
+}
+.collect {
+    top: 77%;
+}
+div.flicking_con {
+    top: 78%;
+}
+.index-foot .li-red {
+    width: 27.3%;
+}
+.location-foot .loc-li2 {
+    width: 42.3%;
+}
+.removeadd {
+    margin-bottom: 16%;
+}
+.mes input {
+     padding-left: 2%; 
+}
+.mes ul li {
+    padding: 1.2% 5%;
+}
+
+/*底部菜单*/
+.index-foot li a img{
+	top: -3px;
+    position: relative;
+}
+.add-address{
+	margin-top: 9%;
+}
+.com-border7{
+	width:12px;
+	height:12px;
+	line-height:13px;
+}
+.num{
+	top:2px;
+}
+.ma_img2{
+	height:300px;
+}
+.index-foot .li-red {
+    padding-bottom: 3.55%;
+}
+.goods-message {
+    margin-bottom: 20%;
+}
+.com-locborder{
+    margin-top: 14%;
+}
+}
+
+/*420到500之类的屏幕尺寸*/
+@media screen and (min-height: 421px) and (max-height:505px){
+div.flicking_con {
+    top: 78%;
+}
+.number .min-add {
+    margin-left: 71%;
+} 
+.index-foot .li-red {
+    width: 27.3%;
+}
+.location-foot .loc-li2 {
+    width: 43%;
+}
+}
